@@ -230,7 +230,7 @@ elif [ "$action" == "create" ]
 fi
 
 # Delete action might not need a FW reload
-# Create action aleways need to reload FW
+# Create action always need to reload FW
 if [ "$action" == "create" ] || [ "$reloadfw" == "yes" ]
 then
     echo -e "${red}Reloading Firewall${nocolor}"
