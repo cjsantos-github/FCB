@@ -1,6 +1,6 @@
 # Firewalld Country Blocker
 
-Bash script to automate the dpwnload foc ountry IP ranges from https://www.ipdeny.com and load them into the DROP zone in firewalld.
+Bash script to automate the download of country IP ranges from https://www.ipdeny.com and load them into the DROP zone in firewalld. Works with IPv4 and IPv6
 
 **Use it at your own risk, it works for me on my environment, highly recommended to test it before using it in production.
 Reloading the firewalld might cause statefull connections to be drop, so be aware.**
@@ -11,7 +11,6 @@ Script acts as a Blacklist, meaning that will block the countries you configure 
 
 The script relies on IPDeny country IP ranges. If a malicious useris using a VPN from a country not blocked by the firewall he will still have access to your server.
 
-Works with IPv4 and IPv6
 
 Usage: fcb.sh ACTION TYPE
 Actions:
