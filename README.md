@@ -29,6 +29,6 @@ To remove the IPSet, just do: sudo ./fcb.sh delete ipv4
 The default size for IP CIDRs is 100000, this can be changed in the script.
 
 And finally, I'm not a developer or bash scripter, so I believe that the script can be improved and made more efficient.
-I use it for myself, just sharing because I couldn't find many options too do this.
+I use it for myself, just sharing because I couldn't find many options to do this.
 
 Enjoy...
