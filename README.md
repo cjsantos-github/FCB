@@ -2,9 +2,8 @@
 
 Bash script to automate the dpwnload foc ountry IP ranges from https://www.ipdeny.com and load them into the DROP zone in firewalld.
 
-Use it at your own risk, it works for me on my environment, highly recommended to test it before using it in production.
-
-**Reloading the firewalld might cause statefull connections to be drop, so be aware.**
+**Use it at your own risk, it works for me on my environment, highly recommended to test it before using it in production.
+Reloading the firewalld might cause statefull connections to be drop, so be aware.**
 
 Needs to run as root, in order to be able to create IPSets and add them to the DROP zone.
 
